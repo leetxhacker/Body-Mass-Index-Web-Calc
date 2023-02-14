@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<meta name="description" content="A Body Mass Index Calculator Code By @LeeTxHacker">
+<meta name="author" content="LeeTxHacker">
+  
+<head>
+  <title>Body Mass Index Calculator</title>
+  <link rel="stylesheet" type="text/css" href="bmi.css">
+</head>
+
+<body>
+  <h1>Body Mass Index Calculator</h1>
+  <div>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="1" required>
+  </div>
+  <div>
+    <label for="weight">Input Weight [In KG]:</label>
+    <input type="number" id="weight" name="weight" min="1" required>
+  </div>
+  <button onclick="calculateBMI()">Calculate BMI</button>
+  <div id="result"></div>
+  <script src="bmi.js"></script>
+</body>
+</html>
